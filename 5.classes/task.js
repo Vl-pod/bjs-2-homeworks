@@ -81,14 +81,14 @@ class Library {
     const book = this.books.find((item) => item[type] === value);
     return book || null;
   }
-/*
+
   giveBookByName(bookName) {
     const index = this.books.findIndex((book) => book.name === bookName);
     if (index === -1) {
       return null;
     }
     return this.books.splice(index, 1)[0];
-  }*/
+  }
 
 
 }
